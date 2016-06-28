@@ -39,3 +39,27 @@ body {
 .clear {
 	clear: both;
 }
+/*content*/
+.img-item a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	color: #e6e6e6;
+	text-decoration: none;
+}
+.img-item a:hover {
+	text-decoration: underline;
+}
+.img-item {
+	text-align: center;
+	display: inline-block;
+	margin: 15px 10px 50px 0;
+}
+.img-item img{
+	width: 256px;
+	height: 174px;
+	border: 3px solid #9b9b9b;
+	padding: 1px;
+}
+.third-item {
+	margin-right: 0;
+}
