@@ -32,7 +32,7 @@ body {
 }
 .contacts {
 	float: right;
-	margin-top: 15px;
+	margin: 15px 15px 0 0;
 }
 .contact {
 	display: block;
@@ -43,31 +43,36 @@ body {
 	clear: both;
 }
 /*content*/
-.img-item a {
+.gallery a {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 16px;
 	color: #e6e6e6;
 	text-decoration: none;
 }
-.img-item a:hover {
+.gallery a:hover {
 	text-decoration: underline;
 }
-.img-item {
+.gallery {
 	text-align: center;
-	display: inline-block;
-	margin: 15px 10px 50px 0;
 }
-.img-item img{
+.gallery li {
+	float: left;
+	margin: 15px 14px 50px 0;
+}
+.gallery li:nth-child(3n) {
+	margin-right: 0;
+}
+.gallery img{
 	width: 256px;
 	height: 174px;
 	border: 3px solid #9b9b9b;
 	padding: 1px;
 }
-.third-item {
-	margin-right: 0;
+.gallery span {
+	display: block;
 }
 /*footer*/
 .footer {
 	text-align: center;
-	margin: 135px 0 25px;
+	padding: 135px 0 25px;
 }
