@@ -15,6 +15,9 @@ body {
 .container {
 	width: 820px;
 	margin: 0 auto;
+	background-image: url(../img/palm.png);
+	background-repeat: no-repeat;
+	background-position: 140px 60px;
 }
 /*header*/
 .logo {
@@ -62,4 +65,9 @@ body {
 }
 .third-item {
 	margin-right: 0;
+}
+/*footer*/
+.footer {
+	text-align: center;
+	margin: 135px 0 25px;
 }
