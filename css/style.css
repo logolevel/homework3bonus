@@ -1,1 +1,41 @@
 @import "reset.css";
+/*styles*/
+body {
+	background-color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+	color: #e6e6e6;
+}
+.wrapper {
+	width: 960px;
+	height: 883px;
+	margin: 0 auto;
+	background-image: url(../img/bg.jpg);
+}
+.container {
+	width: 820px;
+	margin: 0 auto;
+}
+/*header*/
+.logo {
+	float: left;
+}
+.header {
+	padding-top: 135px;
+}
+.subtitle {
+	display: block;
+	margin: 5px 0  5px 85px;
+}
+.contacts {
+	float: right;
+	margin-top: 15px;
+}
+.contact {
+	display: block;
+	font-size: 8px;
+	margin-top: 5px;
+}
+.clear {
+	clear: both;
+}
